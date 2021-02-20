@@ -1,0 +1,82 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 20px;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+* {
+  font-family: "Manrope", sans-serif;
+  color: #48556a;
+}
+* p {
+  font-size: small;
+  font-weight: 500;
+}
+
+body {
+  background-color: #ecf2f8;
+}
+
+.circle {
+  border-radius: 50px;
+}
+
+.article {
+  width: 800px;
+  height: 300px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+}
+.card .card-left,
+.card .card-right {
+  float: left;
+}
+.card .card-left {
+  width: 40%;
+}
+.card .card-left img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.card .card-right {
+  width: 60%;
+  margin: 10px 40px;
+}
+.card .card-footer {
+  width: 100%;
+  height: 50px;
+  display: inline-flex;
+  border: 1px solid red;
+}
+.card .card-footer .row {
+  width: 100%;
+  display: flex;
+}
+.card .card-footer .col {
+  width: 100%/3;
+  border: 1px solid blue;
+}
+.card .card-footer .avatar {
+  width: 42px;
+  height: 42px;
+  border: 1px solid red;
+}
+.card .card-footer .share {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  background-color: #ecf2f8;
+}
+
+/*# sourceMappingURL=main.css.map */
